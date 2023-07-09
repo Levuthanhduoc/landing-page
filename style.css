@@ -1,0 +1,146 @@
+body {
+    font-family: 'roboto',sans-serif, 'Times New Roman', Times, serif; 
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+a, a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
+/*header*/
+.head-flexbox{
+    display: flex;
+    flex-direction: column;
+    background-color:#1f2937;
+    padding: 0 150px 50px 150px;
+    color: white;
+    min-width: 600px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    color: #f9faf8;
+    align-items: center;
+    gap: 15px;
+}
+.header >a {
+    font-size: 24px;
+    font-weight: bolder;
+}
+.link-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;   
+    width: 100%;
+    gap: 100px;
+}
+.link-header, .header-content >div:first-child > p:nth-child(2) {
+    font-size: 18px;
+    color: #e5e7eb;
+} 
+.header-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-content >div:first-child > p:first-child {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.img {
+    width: 250px;
+    height: 150px;
+    border: white solid 1px;
+}
+.body-flexbox {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-width: 600px;
+}
+.imformation {
+    padding-bottom: 100px;
+}
+.imformation > p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 50px 150px 50px 150px;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 150px 0px 150px;
+}
+.small-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.small-box > p {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 3px;
+}
+.placeholder-img {
+    border: #3882f6 3px solid ;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+.some-rando-quote {
+    background-color:#e5e7eb ;
+    padding: 50px 250px 50px 250px;
+    font: 36px light italic;
+    color: #1f2937;
+}
+.some-rando-quote > p:nth-child(2) {
+    font-weight: bold;
+    text-align: right;
+}
+.sign-up-end {
+    padding: 0 150px 0 150px;
+}
+.sign-up-end >div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 50px;
+    color: white;
+}
+.sign-up-end >div > div > p:first-child {
+    font-weight: bolder;
+}
+.sign-up-end > div > a > button {
+    border: white 2px solid;
+}
+.bottom-flexbox {
+    background-color: #1f2937;
+    color: white;
+    padding: 25px 0px 25px 0;
+    text-align: center;
+}
